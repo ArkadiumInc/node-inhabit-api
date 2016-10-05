@@ -1,0 +1,4 @@
+cmd: npm run build
+targets:
+  test:
+    cmd: npm run test-watch

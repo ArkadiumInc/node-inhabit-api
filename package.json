@@ -2,9 +2,14 @@
   "name": "inhabit-api",
   "version": "1.0.0",
   "description": "Inhabit API Hepler",
-  "main": "dist/API.js",
+  "main": "dist/InhabitAPI.js",
   "scripts": {
-    "test": "babel-tape-runner test/*.test.js"
+    "build": "babel src -d dist && npm run browserify && npm run uglify",
+    "watch": "npm run build -- --watch",
+    "test": "babel-tape-runner test/*.test.js | tap-spec",
+    "test-watch": "nodemon --exec \"npm run test\" --watch src --watch test",
+    "browserify": "browserify -d -e dist/InhabitAPI.js | exorcist dist/InhabitAPI.bower.js.map > dist/InhabitAPI.bower.js",
+    "uglify": "uglifyjs dist/InhabitAPI.bower.js --compress --mangle --source-map-root dist/InhabitAPI.bower.js.map --source-map dist/InhabitAPI.bower.min.js.map -o dist/InhabitAPI.bower.min.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/rand0me/node-inhabit-api/issues"
   },
-  "homepage": "https://github.com/rand0me/node-inhabit-api#readme"
+  "homepage": "https://github.com/rand0me/node-inhabit-api#readme",
+  "dependencies": {
+    "postmessage-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "browserify": "^13.1.0",
+    "tape": "^4.6.2",
+    "uglify-js": "^2.7.3"
+  }
 }

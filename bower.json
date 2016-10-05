@@ -1,0 +1,21 @@
+{
+  "name": "inhabit-api",
+  "description": "Inhabit API Hepler",
+  "main": "dist/InhabitAPI.bower.min.js",
+  "authors": [
+    "rand0me"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "inhabit"
+  ],
+  "homepage": "https://github.com/rand0me/node-inhabit-api",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
