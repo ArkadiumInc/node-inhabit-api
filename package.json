@@ -1,0 +1,19 @@
+{
+  "name": "inhabit-api",
+  "version": "1.0.0",
+  "description": "Inhabit API Hepler",
+  "main": "dist/API.js",
+  "scripts": {
+    "test": "babel-tape-runner test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rand0me/node-inhabit-api.git"
+  },
+  "author": "rand0me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rand0me/node-inhabit-api/issues"
+  },
+  "homepage": "https://github.com/rand0me/node-inhabit-api#readme"
+}
