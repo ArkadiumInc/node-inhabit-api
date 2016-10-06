@@ -1,7 +1,8 @@
 {
   "name": "inhabit-api",
   "description": "Inhabit API Hepler",
-  "main": "dist/InhabitAPI.bower.min.js",
+  "main": "dist/InhabitAPI.bower.js",
+  "moduleType": "node",
   "authors": [
     "rand0me"
   ],

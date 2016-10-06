@@ -8,7 +8,7 @@
     "watch": "npm run build -- --watch",
     "test": "babel-tape-runner test/*.test.js | tap-spec",
     "test-watch": "nodemon --exec \"npm run test\" --watch src --watch test",
-    "browserify": "browserify -d -e dist/InhabitAPI.js | exorcist dist/InhabitAPI.bower.js.map > dist/InhabitAPI.bower.js",
+    "browserify": "browserify -d -e dist/lib/Globals.js | exorcist dist/InhabitAPI.bower.js.map > dist/InhabitAPI.bower.js",
     "uglify": "uglifyjs dist/InhabitAPI.bower.js --compress --mangle --source-map-root dist/InhabitAPI.bower.js.map --source-map dist/InhabitAPI.bower.min.js.map -o dist/InhabitAPI.bower.min.js"
   },
   "repository": {
