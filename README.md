@@ -1,4 +1,4 @@
-inhabit-api [![Build Status](https://travis-ci.org/rand0me/node-inhabit-api.svg?branch=master)](https://travis-ci.org/rand0me/node-inhabit-api)
+inhabit-api [![Build Status](https://travis-ci.org/rand0me/node-inhabit-api.svg?branch=master)](https://travis-ci.org/rand0me/node-inhabit-api) [![Codecov](https://img.shields.io/codecov/c/github/rand0me/node-inhabit-api.svg?maxAge=2592000)]()
 ===========
 
 ## Installation
