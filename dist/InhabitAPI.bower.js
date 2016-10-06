@@ -48,7 +48,7 @@ exports.default = InhabitAPI;
 
 InhabitAPI.create = function (moduleConfiguration) {
   var api = new InhabitAPI();
-  api.analytics.setInfo(moduleConfiguration);
+  api.analytics.info = moduleConfiguration;
 
   return api;
 };
