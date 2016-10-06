@@ -1,8 +1,10 @@
-inhabit-api
+inhabit-api [![Build Status](https://travis-ci.org/rand0me/node-inhabit-api.svg?branch=master)](https://travis-ci.org/rand0me/node-inhabit-api)
 ===========
 
 ## Installation
 ### npm
+[![NPM](https://nodei.co/npm/inhabit-api.png)](https://nodei.co/npm/inhabit-api/)
+
 First, install `inhabit-api` via npm command-line, as follows:
 ```
 npm install --save-dev inhabit-api
@@ -11,7 +13,7 @@ Next, you must require a module and instantiate a class:
 ```javascript
 var InhabitAPI = require('inhabit-api');
 ```
-### Bower <small>It's use is doubtful.</small>
+### Bower
 Install `inhabit-api` package:
 ```
 bower install --save inhabit-api
@@ -20,6 +22,7 @@ Then include a `<script>` tag like that:
 ```html
 <script src="bower_components/inhabit-api/dist/InhabitAPI.bower.js"></script>
 ```
+Although its use is arguable. :evil:
 
 ## Usage
 ```javascript
