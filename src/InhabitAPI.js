@@ -21,7 +21,7 @@ export default class InhabitAPI {
 
 InhabitAPI.create = (moduleConfiguration) => {
   const api = new InhabitAPI();
-  api.analytics.setInfo(moduleConfiguration);
+  api.analytics.info = moduleConfiguration;
 
   return api;
 }
