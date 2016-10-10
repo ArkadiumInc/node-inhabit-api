@@ -18,9 +18,9 @@ export default class Analytics {
     return this.client.get(`${PREFIX}start`, this.info);
   }
   end() {
-    return this.client.get(`${PREFIX}start`, this.info);
+    return this.client.get(`${PREFIX}end`, this.info);
   }
   interaction() {
-    return this.client.get(`${PREFIX}start`, this.info);
+    return this.client.get(`${PREFIX}interaction`, this.info);
   }
 }
