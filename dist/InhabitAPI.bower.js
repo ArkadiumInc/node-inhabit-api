@@ -90,12 +90,12 @@ var Analytics = function () {
   }, {
     key: 'end',
     value: function end() {
-      return this.client.get(PREFIX + 'start', this.info);
+      return this.client.get(PREFIX + 'end', this.info);
     }
   }, {
     key: 'interaction',
     value: function interaction() {
-      return this.client.get(PREFIX + 'start', this.info);
+      return this.client.get(PREFIX + 'interaction', this.info);
     }
   }]);
 

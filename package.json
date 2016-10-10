@@ -10,7 +10,7 @@
     "test-watch": "jest --watch",
     "browserify": "browserify -d -e dist/lib/Globals.js | exorcist dist/InhabitAPI.bower.js.map > dist/InhabitAPI.bower.js",
     "uglify": "uglifyjs dist/InhabitAPI.bower.js --compress --mangle --source-map-root dist/InhabitAPI.bower.js.map --source-map dist/InhabitAPI.bower.min.js.map -o dist/InhabitAPI.bower.min.js",
-    "release": "npm run build && npm version patch && git push && git push --tags && npm publish"
+    "release": "npm run build && git commit --interactive && npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
