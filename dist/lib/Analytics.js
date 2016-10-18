@@ -41,6 +41,11 @@ var Analytics = function () {
     value: function interaction() {
       return this.client.get(PREFIX + 'interaction', this.info);
     }
+  }, {
+    key: 'error',
+    value: function error() {
+      return this.client.get(PREFIX + 'interaction', this.info);
+    }
   }]);
 
   return Analytics;

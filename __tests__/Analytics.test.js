@@ -27,4 +27,6 @@ test('Analytics', () => {
   analytics.interaction().then(data => expect(data.message).toBe('OK'));
 
   analytics.end().then(data => expect(data.message).toBe('OK'));
+
+  analytics.error().then(data => expect(data.message).toBe('OK'));
 });

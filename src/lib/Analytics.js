@@ -23,4 +23,7 @@ export default class Analytics {
   interaction() {
     return this.client.get(`${PREFIX}interaction`, this.info);
   }
+  error(){
+    return this.client.get(`${PREFIX}interaction`,this.info);
+  }
 }

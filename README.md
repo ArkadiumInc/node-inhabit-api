@@ -37,6 +37,9 @@ api.analytics.interaction();
 
 // Log an "Module End" analytics event
 api.analytics.end();
+
+// Log an "Error"
+api.analytics.error();
 ```
 
 ## License
