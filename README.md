@@ -1,4 +1,4 @@
-inhabit-api [![Build Status](https://travis-ci.org/rand0me/node-inhabit-api.svg?branch=master)](https://travis-ci.org/rand0me/node-inhabit-api) [![Codecov](https://img.shields.io/codecov/c/github/rand0me/node-inhabit-api.svg?maxAge=2592000)](https://codecov.io/gh/rand0me/node-inhabit-api)
+inhabit-api [![Build Status](https://travis-ci.org/ArkadiumInc/node-inhabit-api.svg?branch=master)](https://travis-ci.org/ArkadiumInc/node-inhabit-api) [![Codecov](https://img.shields.io/codecov/c/github/ArkadiumInc/node-inhabit-api.svg?maxAge=2592000)](https://codecov.io/gh/ArkadiumInc/node-inhabit-api)
 ===========
 
 ## Installation
@@ -43,7 +43,7 @@ api.analytics.error();
 ```
 
 ## License
-COPYRIGHT (c) 2016 rand0me
+COPYRIGHT (c) 2016 ArkadiumInc
 
 BSD ISC License
 
